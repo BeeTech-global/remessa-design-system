@@ -1,0 +1,104 @@
+.Footer
+  background $color-bay-of-many
+  color #FFF
+  padding 3rem 0 2rem
+
+  &-backToTop
+    text-align center
+    margin-bottom 2.5rem
+
+    a
+      color #FFF
+      font-size 1.2rem
+      display inline-flex
+      aign-items center
+
+      svg
+        fill #FFF
+        width 2rem
+        height 2rem
+
+  &-logo
+    margin-bottom 2rem
+    text-align center
+
+    a
+      display inline-block
+
+    svg
+      width 13.7rem
+      height 3rem
+
+  &-address
+    text-align center
+    margin-bottom 3rem
+
+    address
+      font-size 1.4rem
+      line-height 1.43
+      font-style normal
+
+  &-socialIcon
+    display flex
+    justify-content space-around
+
+    svg
+      width 3.2rem
+      height 3.2rem
+      fill #FFF
+      transition all .15s
+
+    a:hover svg
+      fill $color-medium-spring-green
+
+
+  hr
+    margin 2rem 0
+    border 0.1rem solid $color-slate-grey
+
+  &-disclaimer,
+  &-copyright
+    font-size 1.1rem
+    line-height 1.82
+    display block
+    color $color-slate-grey
+
+  &-disclaimer
+    text-align justify
+    margin-bottom 3.3rem
+
+  &-copyright
+    text-align center
+    color $color-slate-grey
+
+  @media (min-width $mq-md)
+    &-backToTop
+      text-align right
+
+    &-row
+      align-items center
+      margin-bottom 5rem
+
+    &-logo
+      text-align left
+      margin 0
+
+    &-address
+      flex 0 1 100%
+      margin 0
+
+      address
+        font-size 1.2rem
+
+    &-socialIcon
+      justify-content flex-end
+
+      a
+        margin-left 2rem
+
+      svg
+        width 1.6rem
+        height 1.6rem
+
+    &-disclaimer
+      margin 4rem 0 6.2rem

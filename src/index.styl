@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i')
+
+@import 'variables'
+@import '~normalize-styl/normalize'
+@import 'base'
+
+@import '~bootstrap/dist/css/bootstrap-grid.css'
+
+@import 'components/TopHeaderNav/TopHeaderNav'
+@import 'components/Hero/Hero'
+@import 'components/ValueProposals/ValueProposals'
+@import 'components/StepByStep/StepByStep'
+@import 'components/ContactBox/ContactBox'
+@import 'components/Button/Button'
+@import 'components/Faq/Faq'
+@import 'components/TrustedCompany/TrustedCompany'
+@import 'components/Footer/Footer'
+
+h3,
+.heading-h3
+  font-size 2.4rem
+  line-height 1.33
+  margin-bottom 1em
+  color $color-cerulean
+
+.u-arrow-after
+  position relative
+  z-index 10
+
+  &:after
+    content ''
+    position absolute
+    bottom 0
+    left 0
+    width 0
+    height 0
+    border-left 50vw solid transparent
+    border-right 50vw solid transparent
+    border-top 3.8rem solid $color-white-lilac
+    transform translateY(100%)
+
+  @media (min-width $mq-md)
+    &:after
+      border-top: 7rem solid $color-white-lilac
+
+.u-text-left
+  text-align left
+
+.u-text-center
+  text-align center
+
+.u-text-right
+  text-align right
+
+.u-m-t
+  margin-top 1.6rem !important
+
+.u-m-b
+  margin-bottom 1.6rem !important
+
+.u-n-m-b
+  margin-bottom 0 !important

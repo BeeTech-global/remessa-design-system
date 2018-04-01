@@ -1,0 +1,107 @@
+.StepByStep
+  padding 9.5rem 0 20rem
+  background-image linear-gradient(159deg, $color-mountain-meadow, $colo-orient 65%, $color-bay-of-many)
+
+  &-title
+    color #FFF
+    margin 0 0 5rem
+    text-align center
+    font-size 2.4rem
+    font-weight 600
+
+  ol
+    margin 0
+    padding 0
+    list-style outside none
+
+  li
+    color #FFF
+    margin 0 0 7.2rem
+    text-align center
+    display block
+
+  figure
+    width 172px
+    height 172px
+    display block
+    border-radius 99999%
+    margin 0 auto 2.7rem
+    border 2px solid #FFF
+    align-items center
+
+  svg
+    max-width: 96px;
+    height: 100%;
+
+  &-description-title
+    color #FFF
+    font-size 1.6rem
+    line-height 1.5
+    margin 0 0 1rem
+
+  p
+    margin 0
+
+  a
+    color #FFF
+    text-decoration underline
+
+  @media (min-width $mq-md)
+    padding-top 13.5rem
+    padding-bottom 25.5rem
+    background-image linear-gradient(149deg, $color-mountain-meadow, $colo-orient 65%, $color-bay-of-many);
+
+    &-title
+      font-size 3.6rem
+      margin 0 0 5rem
+
+    li
+      position relative
+      display flex
+      align-items center
+      flex-direction row
+      margin-bottom 7.2rem
+
+      &:after
+        content ''
+        position absolute
+        bottom -7.2rem
+        left 0
+        height 7.2rem
+        width calc(50% - 1px)
+        border-right 2px solid #fff
+
+    figure
+      display flex
+      flex 0 1 auto
+      margin 0 1.2rem
+      justify-content center
+
+    p
+      max-width 70%
+
+    &-description
+      width calc(50% - 9.8rem)
+
+    li:nth-child(odd)
+      text-align right
+
+      figure
+        order 2
+
+      p
+        margin-left auto
+
+    li:nth-child(even)
+      text-align left
+      justify-content flex-end
+
+      p
+        margin-right auto
+
+    li:last-child
+      padding-bottom 8rem
+
+      &:after
+        content none
+
