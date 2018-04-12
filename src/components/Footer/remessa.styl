@@ -1,0 +1,126 @@
+.footer__remessa {
+  padding: 48px 0;
+  background: #FFF;
+}
+
+.footer__remessa__logo {
+  display: block;
+  margin: 0 auto 32px;
+  width: 180px;
+  height: 32px;
+  fill: $color-cerulean;
+}
+
+.footer__remessa__social {
+  text-align: center;
+  margin: 48px 0;
+
+  a {
+    display: inline-block;
+    margin: 0 13px;
+
+    svg {
+      fill: none;
+      stroke: $color-cerulean;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
+
+.footer__remessa__contact-opts {
+  list-style: outside none;
+  text-align: center;
+
+  li {
+    display: block;
+    text-align: center;
+    margin: 0 0 16px;
+    line-height: 1.5;
+  }
+
+  .icon {
+    width: 16px;
+    height: 16px;
+    fill: $color-suva-grey;
+    margin-right: 8px;
+    transition: all 0.15s;
+  }
+
+  a {
+    display: inline-flex;
+    text-decoration: none;
+    color: $color-suva-grey;
+    align-items: center;
+    transition: all 0.15s;
+
+    &:hover {
+      color: $color-cerulean;
+
+      svg { fill: $color-cerulean; }
+
+      .icon { stroke: $color-cerulean; }
+    }
+  }
+
+  .-location,
+  .-award {
+    margin: 77px 0 65px;
+
+    a {
+      display: block;
+    }
+
+    .icon {
+      display: block;
+      margin: 0 auto 12px;
+      fill: none;
+      stroke: $color-suva-grey;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      width: 26px;
+      height: 26px;
+    }
+  }
+
+  .-award { margin: 53px 0 0; }
+
+  .-central {
+    @media (max-width $mq-sm-max) {
+      display inline-block
+    }
+  }
+
+  @media (min-width $mq-md) {
+    li {
+      display: inline-block;
+      padding: 0 24px;
+    }
+
+    .-location {
+      margin: 32px 0 40px;
+
+      a { display: inline-block; }
+    }
+
+    .-location,
+    .-award {
+      display: block;
+      padding: 0;
+    }
+
+    .-award {
+      a { display: inline-flex; }
+
+      .icon {
+        margin: 0 8px 0 0;
+        width: 23px;
+        height: 23px;
+      }
+    }
+  }
+}

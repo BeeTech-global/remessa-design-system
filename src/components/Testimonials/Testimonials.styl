@@ -1,0 +1,73 @@
+.testimonials__box {
+  position: relative;
+  display: block;
+  border-radius: 15px;
+  background-color: #FFF;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2);
+  border: solid 1px rgba(34, 170, 187, 0.1);
+  padding: 24px 24px 16px;
+  transition: all 0.3s;
+  transform: translateY(0) scale(1);
+  text-decoration: none;
+  text-align: left;
+
+  p {
+    color: $color-suva-grey;
+    margin: 0 0 16px;
+    line-height: 1.5;
+  }
+
+  svg {
+    width: 16px;
+    height: 13px;
+    fill: $color-suva-grey;
+  }
+
+  figure {
+    position: absolute;
+    right: 15px;
+    bottom: -26px;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: #FFF;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2);
+    border: solid 3px $color-alto;
+    overflow: hidden;
+    background-size: 60%;
+    background-image: url('https://www.remessaonline.com.br/images/home/RM-simbolo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+
+  span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  @media (min-width $mq-md) {
+    &:hover {
+      box-shadow: 0 20px 32px 0 rgba(0, 0, 0, 0.2);
+      transform: translateY(-10px);
+    }
+  }
+}
+
+.testimonials__author {
+  margin-top: 40px;
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  color: #FFF;
+  line-height: 1.71;
+  margin-right: 15px;
+
+  strong {
+    display: block;
+  }
+}
