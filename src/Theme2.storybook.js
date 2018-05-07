@@ -8,8 +8,8 @@ const Hero = () => (
     <div className="Hero-container container">
       <div className="row">
         <div className="col-md-6">
-          <h1 className="Hero-title">Como comprar Bitcoin</h1>
-          <p className="Hero-lead">Dicas da Remessa Online para ajudar você em investimentos e compras no mercado Bitcoin.</p>
+          <h1 className="Hero-title">Como receber dinheiro do exterior</h1>
+          <p className="Hero-lead">Só na Remessa Online você transfere para a sua conta quando quiser e aproveita as altas da cotação para fazer seu dinheiro valer muito mais!</p>
         </div>
       </div>
     </div>
@@ -38,7 +38,7 @@ class WidgetSimulator extends Component {
       <div className="container SimulatorWidget">
         <div className="SimulatorWidget-wrapper">
           <iframe
-            src="http://localhost:4000/widget-simulador-recebimento"
+            src="https://remessa-web-ro-338-widget.herokuapp.com/widget-simulador-recebimento"
             className="SimulatorWidget-iframe"
             title="Simule seu Recebimento"
             allowTransparency
@@ -266,7 +266,7 @@ const Footer = () => (
                   <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#icon-award" />
                 </svg>
                 <span>
-                  Somos autorizados
+                  Correspondente cambial autorizado
                   <span className="-central">
                     {' '} pelo Banco Central
                     <svg className="footer__chevron-right">

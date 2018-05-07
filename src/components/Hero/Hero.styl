@@ -4,12 +4,19 @@
   background-repeat no-repeat
   color #FFF
   display flex
-
-  @media (max-width $mq-xs-max)
-    padding 9.5rem 0 4.0rem
+  padding 9.5rem 0 4.0rem
 
   @media (min-width $mq-sm)
+    padding-top unit(6.6 + 4.8, 'rem')
+    padding-bottom 4.8rem
+
+  @media (min-width $mq-lg)
     min-height 43rem
+    align-items center
+
+    &-container
+      margin-top 0
+      margin-bottom 0
 
   &-container
     margin-top auto
