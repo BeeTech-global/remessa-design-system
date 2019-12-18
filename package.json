@@ -66,7 +66,7 @@
     "enzyme-to-json": "^3.1.2",
     "font-awesome-stylus": "4.7.0",
     "lodash": "^4.17.4",
-    "moment": "^2.18.1",
+    "moment": "^2.24.0",
     "normalize-styl": "^4.1.1",
     "postcss-flexbugs-fixes": "^3.0.0",
     "postcss-font-magician": "^2.0.0",
