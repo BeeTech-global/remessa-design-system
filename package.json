@@ -70,7 +70,7 @@
     "normalize-styl": "^4.1.1",
     "postcss-flexbugs-fixes": "^3.0.0",
     "postcss-font-magician": "^2.0.0",
-    "postcss-loader": "^2.0.5",
+    "postcss-loader": "^2.1.6",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-clipboard.js": "^1.1.2",
