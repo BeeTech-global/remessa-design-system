@@ -65,7 +65,7 @@
     "cssnano": "^3.10.0",
     "enzyme-to-json": "^3.1.2",
     "font-awesome-stylus": "4.7.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "moment": "^2.18.1",
     "normalize-styl": "^4.1.1",
     "postcss-flexbugs-fixes": "^3.0.0",
